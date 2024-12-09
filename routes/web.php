@@ -61,6 +61,6 @@ route::get('/explore', [HomeController::class, 'explore']);
 
 route::get('/search', [HomeController::class, 'search']);
 
-route::get('/cat_search/{od}', [HomeController::class, 'cat_search']);
+route::get('/cat_search/{id}', [HomeController::class, 'cat_search']);
 
 
